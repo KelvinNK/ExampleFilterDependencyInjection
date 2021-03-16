@@ -14,7 +14,7 @@
 
 ![image](https://user-images.githubusercontent.com/31309938/111233565-01813680-85cc-11eb-8d7a-dd3d50b7389f.png)
 
-4. Add using Microsoft.AspNetCore.Mvc.Filters in your "Customfilter", then add the interface IAuthorizationFilter.
+4. Add "using Microsoft.AspNetCore.Mvc.Filters" in your "Customfilter", then add the interface IAuthorizationFilter.
 
 ![image](https://user-images.githubusercontent.com/31309938/111234583-9c2e4500-85cd-11eb-9f82-b71c5ad403d9.png)
 
@@ -30,7 +30,7 @@ In this method you can perform any logic you want to carry out the authorization
 
 To get that key from appSettings.json in our filter we'll need IConfiguration, this is where we need the dependency injection.
 
-7. Add the interface IFilterFactory to the class "CustomFilter"
+7. Add the interface "IFilterFactory" to the class "CustomFilter"
 
 ![image](https://user-images.githubusercontent.com/31309938/111238100-24641880-85d5-11eb-8b37-f1e0b9fff20c.png)
 
@@ -38,7 +38,7 @@ To get that key from appSettings.json in our filter we'll need IConfiguration, t
 
 ![image](https://user-images.githubusercontent.com/31309938/111238271-84f35580-85d5-11eb-94fb-fdda41a0b283.png)
 
-9. Add "using Microsoft.Extensions.Configuration", create a attribute type IConfiguration and a constructor that receives a param type IConfiguration.
+9. Add "using Microsoft.Extensions.Configuration", create a attribute type "IConfiguration" and a constructor that receives a param type "IConfiguration".
 
 ![image](https://user-images.githubusercontent.com/31309938/111238629-31cdd280-85d6-11eb-94e5-5bd551ae8eac.png)
 
