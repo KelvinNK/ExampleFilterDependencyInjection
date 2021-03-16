@@ -1,6 +1,6 @@
 # How to perform dependency injection on filters [.net core 3.1]
 
-### In this example we'll implement the interface IAuthorizationFilter to realize the authorization of our controller.
+### In this example we'll implement the interface IAuthorizationFilter to perform the authorization of our controller.
 
 1. Create the class that will be your filter.
 
