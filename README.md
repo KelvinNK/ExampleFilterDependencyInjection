@@ -10,7 +10,7 @@
 
 ![image](https://user-images.githubusercontent.com/31309938/111233072-114c4b00-85cb-11eb-9715-780b5f09f6a7.png)
 
-3. Add AtributeUsage with AttributeTargets Class and Method, that way the filter can be used in the whole class or just in the method you want.
+3. Add "AtributeUsage" with AttributeTargets Class and Method, that way the filter can be used in the whole class or just in the method you want.
 
 ![image](https://user-images.githubusercontent.com/31309938/111233565-01813680-85cc-11eb-8d7a-dd3d50b7389f.png)
 
