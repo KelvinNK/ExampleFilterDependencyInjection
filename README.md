@@ -18,7 +18,7 @@
 
 ![image](https://user-images.githubusercontent.com/31309938/111234583-9c2e4500-85cd-11eb-9f82-b71c5ad403d9.png)
 
-5. Implemente the interface you just added.
+5. Implement the interface you just added.
 
 ![image](https://user-images.githubusercontent.com/31309938/111234725-f5967400-85cd-11eb-88fa-0aebc29f6e61.png)
 
